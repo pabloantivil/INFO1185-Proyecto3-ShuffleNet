@@ -36,7 +36,7 @@ runs/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-*.ipynb
+# *.ipynb  # Comentado para permitir versionar notebooks
 
 # IDEs
 .vscode/
@@ -45,9 +45,10 @@ runs/
 *.swo
 *~
 
-# Dataset (comentar si quieres versionar el dataset)
+# Dataset (no se versiona por peso)
 data/
 dataset/
+archive/
 *.jpg
 *.jpeg
 *.png
